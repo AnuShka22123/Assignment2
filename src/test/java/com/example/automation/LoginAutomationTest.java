@@ -57,7 +57,7 @@ class LoginAutomationTest {
         String result = app.welcomeMessage("Utkarsh");
 
         // Validating the result
-        assertEquals("Hello, Utkarsh!", result, "The welcome message should be correct.");
+        assertEquals("Hello, Anushka!", result, "The welcome message should be correct.");
     }
 
     @AfterAll
